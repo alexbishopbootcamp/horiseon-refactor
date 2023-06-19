@@ -1,3 +1,5 @@
+
+/* Default rules */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,18 +10,33 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* Page title */
 h1 {
     font-size: 48px;
 }
 
+/* Main section headers */
 h2 {
     font-size: 36px;
 }
 
+/* Sidebar headers and footer title*/
 h3 {
     font-size: 20px;
 }
 
+
+/* Page Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,19 +69,37 @@ h3 {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* Splash image */
 .splash {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+}
+
+
+/* Main section rules */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-item {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-item img {
+    max-height: 200px;
+}
+
+.content-item h2 {
+    margin-bottom: 20px;
 }
 
 .float-left {
@@ -77,12 +112,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+/* Sidebar rules */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,23 +141,8 @@ p {
     max-width: 150px;
 }
 
-.content-item {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.content-item img {
-    max-height: 200px;
-}
-
-.content-item h2 {
-    margin-bottom: 20px;
-}
-
+/* Footer rules */
 .footer {
     padding: 30px;
     clear: both;
