@@ -1,2 +1,2 @@
 # urban-octo-telegram
-Bootcamp Challenge 1
+Landing page for Horiseon with refactored code
