@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,7 +29,6 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
 }
 
 .header h1 .seo-title-highlight {
@@ -114,7 +125,6 @@ p {
 
 .content-item h2 {
     margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
@@ -122,8 +132,4 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
